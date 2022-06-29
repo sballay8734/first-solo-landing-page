@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------------- HEADER ----------------------------------- */
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #4a576c;
+    padding: 5px 200px 5px 200px;
+    font-family: 'Allan';
+    font-size: 22px;
+    color: white;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 10px;
+}
+
+li {
+    display: flex;
+}
+
+button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    margin: 0px;
+}
+
+/* --------------------------- Main Container ------------------------------ */
+
+.container {
+    min-height: 400px;
+    padding: 0px 200px 0px 200px;
+}
+
+/* ----------------------------- 1st Block -------------------------------- */
+
+.one {
+    background-color: #1F2937;
+}
+
+/* ----------------------------- 2nd Block -------------------------------- */
+
+.two {
+}
+
+/* ----------------------------- 3rd Block -------------------------------- */
+
+.three {
+    background-color: #E5E7EB;
+}
+
+/* ----------------------------- 4th Block -------------------------------- */
+
+.four {
+
+}
+
+/* ------------------------------ Footer --------------------------------- */
+
+.footer {
+    background-color: #1F2937;
+    min-height: 50px;
+}
