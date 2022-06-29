@@ -55,18 +55,72 @@ button {
 
 .container {
     min-height: 400px;
-    padding: 0px 200px 0px 200px;
+    padding: 12px 200px 12px 200px;
 }
 
 /* ----------------------------- 1st Block -------------------------------- */
 
 .one {
     background-color: #1F2937;
+    display: flex;
+}
+
+.one-left {
+    min-height: 200px;
+    max-width: 50%;
+    background-color: #1F2937;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: white;
+    margin: 0 0 2px 0;
+
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    color: white;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 125px;
+    height: 34px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.one-right {
+    min-height: 200px;
+    max-width: 50%;
+    background-color: #1F2937;
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    margin-left: auto;
 }
 
 /* ----------------------------- 2nd Block -------------------------------- */
 
 .two {
+    flex-direction: column;
+    display: flex;
 }
 
 /* ----------------------------- 3rd Block -------------------------------- */
